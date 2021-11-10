@@ -10,14 +10,14 @@ public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
 
     private String name;
 
     public Student() {
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
